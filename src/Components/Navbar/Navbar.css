@@ -1,0 +1,39 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background);
+    z-index: 1;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px
+}
+.Logo :nth-child(1){
+    font-size: 24px;
+    color: var(--secondary);
+}
+.Logo  p{
+    font-weight: bold;
+
+}
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.navbar-links *{
+    font-weight: 400;
+    transition: 300ms;
+}
+.navbar-links *:hover{
+    opacity: 0.6;
+}

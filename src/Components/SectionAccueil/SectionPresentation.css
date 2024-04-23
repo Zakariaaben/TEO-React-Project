@@ -1,0 +1,40 @@
+.SectionPresentation{
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 100px;
+    gap: 20px   ;
+    align-items: center;
+    overflow: hidden;
+   
+    
+}   
+
+.SectionPresentation img{
+    height: 800px;
+    right: -80px;
+   top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+.SectionPresentation h1, .SectionPresentation span{
+    font-size: 60px;
+    opacity: 0.9 ;
+    
+}
+.SectionPresentation span{
+    color: var(--primary);
+    opacity: 1;
+    text-shadow: 1px 1px 1px rgba(64, 190, 222, 0.6);
+}
+
+.text-content{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
