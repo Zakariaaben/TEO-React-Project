@@ -7,6 +7,9 @@
   --accent: #d8c46a;
 
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 *{
   margin: 0;
   padding: 0;

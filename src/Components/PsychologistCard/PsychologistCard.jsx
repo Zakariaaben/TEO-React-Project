@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 import { Button } from '@mui/material'
 import { BiMap, BiPhoneCall } from 'react-icons/bi'
 import Flag from 'react-world-flags'
-import RDV from '../RDV/RDV'
+import RDV from '../RDV/RDV.jsx'
 
 
 const PsychologistCard = ({psychologist}) => {
@@ -12,9 +12,22 @@ const PsychologistCard = ({psychologist}) => {
   const [Rdv,SetRdv] = useState(false)
   
   const HandleRDV = ()=>{
-    SetRdv(!Rdv);
-  }
+    
+    if (!Rdv){
+      SetRdv(true)
+      
+    }
+    else
+      {
+        const e = document.getElementById("RDV")
+        e.classList.add("RDV-hide")
+        setTimeout(() => {
+          SetRdv(false)
+        }, 400);
+    }
 
+  }
+  Rdv? document.body.style.overflowY = "hidden":document.body.style.overflowY = "scroll"
 
   return (
     <div className='Card'>
@@ -54,7 +67,7 @@ const PsychologistCard = ({psychologist}) => {
 
         </div>
     {
-      Rdv ? <RDV closeRDV={()=>HandleRDV()}/> : null
+      Rdv ? <RDV closeRDV={()=>HandleRDV()} psy={psychologist} /> : null
     }
       
     </div>
