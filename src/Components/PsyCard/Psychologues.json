@@ -8,7 +8,7 @@
         "telephone": "+213 123456789",
         "email": "fzbenali@example.com",
         "langues": ["Arabe", "Anglais"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Karim Belkacem",
@@ -18,7 +18,7 @@
         "telephone": "+213 987654321",
         "email": "karim.belkacem@example.com",
         "langues": ["Arabe", "Français", "Anglais"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Nadia Touati",
@@ -28,7 +28,7 @@
         "telephone": "+213 555555555",
         "email": "ntouati@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Ahmed Bensaid",
@@ -38,7 +38,7 @@
         "telephone": "+213 666666666",
         "email": "abensaid@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Safia Kaddouri",
@@ -48,7 +48,7 @@
         "telephone": "+213 454545454",
         "email": "safiakaddouri@example.com",
         "langues": ["Arabe", "Kabyle", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Youssef Medjber",
@@ -58,7 +58,7 @@
         "telephone": "+213 787878787",
         "email": "ymedjber@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Lila Chibane",
@@ -68,7 +68,7 @@
         "telephone": "+213 999999999",
         "email": "lilachibane@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Mounir Ziani",
@@ -78,7 +78,7 @@
         "telephone": "+213 888888888",
         "email": "mziani@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Sofia Amara",
@@ -88,7 +88,7 @@
         "telephone": "+213 777777777",
         "email": "samara@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Ali Djerroud",
@@ -98,7 +98,7 @@
         "telephone": "+213 666666666",
         "email": "alidjerroud@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Nora Aït Kaci",
@@ -108,7 +108,7 @@
         "telephone": "+213 555555555",
         "email": "nakaci@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Samir Ferhati",
@@ -118,7 +118,7 @@
         "telephone": "+213 444444444",
         "email": "sferhati@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Hakim Meziani",
@@ -128,7 +128,7 @@
         "telephone": "+213 333333333",
         "email": "hmeziani@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Nassima Boumediene",
@@ -138,7 +138,7 @@
         "telephone": "+213 222222222",
         "email": "nboumediene@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Fayçal Hadj Said",
@@ -148,7 +148,7 @@
         "telephone": "+213 111111111",
         "email": "fhadjsaid@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Salima Khiat",
@@ -158,7 +158,7 @@
         "telephone": "+213 101010101",
         "email": "skhiat@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Abdelkader Benyahia",
@@ -168,7 +168,7 @@
         "telephone": "+213 202020202",
         "email": "abenyahia@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Leila Hamidi",
@@ -178,7 +178,7 @@
         "telephone": "+213 303030303",
         "email": "lhamidi@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       },
       {
         "nom": "Hocine Bouzidi",
@@ -188,7 +188,7 @@
         "telephone": "+213 404040404",
         "email": "hbouzidi@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Nadia Zouaoui",
@@ -198,7 +198,7 @@
         "telephone": "+213 505050505",
         "email": "nzouaoui@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },
       {
         "nom": "Amine Boudjema",
@@ -208,7 +208,7 @@
         "telephone": "+213 606060606",
         "email": "aboudjema@example.com",
         "langues": ["Arabe", "Français"],
-        "img": "src/assets/doctor-svgrepo-com.svg"
+        "img": "Images/doctor-svgrepo-com.svg"
       },{
         "nom": "Fatima Zohra Benali",
         "specialite": "Psychologue clinicienne",
@@ -217,7 +217,7 @@
         "telephone": "+213 123456789",
         "email": "fzbenali@example.com",
         "langues": ["Arabe", "Anglais"],
-        "img": "src/assets/doctor-svgrepo-comf.svg"
+        "img": "Images/doctor-svgrepo-comf.svg"
       }
     ]
   }
