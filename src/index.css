@@ -1,9 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   --text: #071519;
-  --background: #f1f9fb;
+  --background: #eaeef6;
   --primary: #3da6cc;
-  --secondary: #e39599;
+  --secondary: #dedcff;
   --accent: #d8c46a;
 
 }
@@ -12,7 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 body{
   background-color: var(--background);

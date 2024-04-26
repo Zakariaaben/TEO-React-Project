@@ -1,11 +1,10 @@
 import React from 'react'
-import Navbar from '../Components/Navbar/Navbar'
 import SectionPresentation from '../Components/SectionAccueil/SectionPresentation'
+import "./Pages.css"
 
 const Homepage = () => {
   return (
-    <div>
-        
+    <div className="Page">
         <SectionPresentation/>
     </div>
   )

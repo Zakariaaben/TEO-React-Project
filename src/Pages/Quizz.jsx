@@ -1,8 +1,8 @@
 import React from 'react'
-
+import "./Pages.css"
 const Quizz = () => {
   return (
-    <div>Quizz</div>
+    <div className="Page">Quizz</div>
   )
 }
 

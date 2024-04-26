@@ -1,15 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./PsychologistCard.css"
 import { MdEmail } from 'react-icons/md'
 import { Button } from '@mui/material'
 import { BiMap, BiPhoneCall } from 'react-icons/bi'
-
 import Flag from 'react-world-flags'
+import RDV from '../RDV/RDV'
+
+
 const PsychologistCard = ({psychologist}) => {
+
+  const [Rdv,SetRdv] = useState(false)
+  
+  const HandleRDV = ()=>{
+    SetRdv(!Rdv);
+  }
+
+
   return (
     <div className='Card'>
         <div className='Left-container-card'>
-        <img src="src\assets\doctor-svgrepo-com.svg" className='Faceicon' alt="" />
+        <img src={psychologist.img} className='Faceicon' alt="" />
         <div className='informationpsy'>
           <h2>{psychologist.nom}</h2>
           <p>{psychologist.specialite}</p>
@@ -38,10 +48,15 @@ const PsychologistCard = ({psychologist}) => {
             <p><BiPhoneCall className='icon'/>{psychologist.telephone}</p>
             
           </div>
-          <Button  className="buttonRDV" variant="contained" >
+          <Button  className="buttonRDV" variant="contained" onClick={()=>HandleRDV()} >
         Prendre Rendez-Vous
       </Button>
+
         </div>
+    {
+      Rdv ? <RDV closeRDV={()=>HandleRDV()}/> : null
+    }
+      
     </div>
   )
 }
