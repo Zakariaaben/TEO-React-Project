@@ -9,6 +9,8 @@ const SectionPresentation = () => {
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing <br/> elit. Placeat harum modi vero  inventore tenetur <br/> accusantium nostrum labore cupiditate.</h2>
             </div>
             <img src="/Images/illustrationDoctors.svg" alt="" />
+            <img src="/assets/illustrationDoctors.svg" alt="" />
+
     </div>
   )
 }
