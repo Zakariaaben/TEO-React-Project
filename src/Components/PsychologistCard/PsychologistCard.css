@@ -1,13 +1,65 @@
 .Card{
-    width: 70%;
-    height: 250px;
     background-color: #fff;
+    width: 70%;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     padding: 30px;
     box-shadow:  0 20px 30px -25px rgb(65, 52, 183, 0.25);
 }
+
+@media (max-width:1150px) {
+    .Card{
+        width: 65%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 50px;
+    }
+    .Left-container-card{
+        width:90% !important;
+        padding: 0 0 0 0 !important;
+        gap: 50px !important;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:870px) {
+    .Card{
+        width: 500px;
+    }
+    .Left-container-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column ;
+    }
+}
+@media (max-width:560px) {
+    .Card{
+        padding-left: 0;
+        padding-right: 0;
+        width: 500px ;
+    }
+}
+@media (max-width:560px) {
+    .Card{
+        padding-left: 0;
+        padding-right: 0;
+        width: 480px ;
+    }
+}
+@media (max-width:520px) {
+    .Card{
+        padding-left: 0;
+        padding-right: 0;
+        width: 110% ;
+    }
+}
+
+
 
 
 .Right-container-card{
@@ -36,6 +88,7 @@ width: 100px;
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 200px;
 }
 .informationpsy :nth-child(3){
     display: flex;

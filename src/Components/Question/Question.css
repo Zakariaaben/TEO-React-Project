@@ -32,6 +32,9 @@
 .animateprevious{
     animation:  outquestion 700ms ease-out;
 }
+
+
+
 @keyframes outquestion{
     from {  
         left:0px;
