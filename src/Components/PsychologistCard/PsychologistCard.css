@@ -64,10 +64,7 @@ width: 100px;
     font-size: 20px;
 }
 
-.buttonRDV{
-    width: 230px;
-    border-radius: 20px;
-}
+
 
 .Langues{
     display: flex;
@@ -92,3 +89,60 @@ width: 100px;
         color: var(--primary);
     }
 }
+
+
+
+
+.buttonRDV {
+    --color: var(--button);
+    font-family: inherit;
+    display: inline-block;
+    width: 200px;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+    cursor:pointer;
+   }
+   
+
+   .buttonRDV:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+   }
+   
+   .buttonRDV:hover {
+    color: #fff;
+   }
+   
+   .buttonRDV:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .buttonRDV:hover:before {
+    top: -30px;
+    left: -75px;
+   }
+   
+   .buttonRDV:active:before {
+    background: #2366cb;
+    transition: background 300ms;
+   }

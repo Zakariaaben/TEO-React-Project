@@ -7,7 +7,7 @@ const PsyCards = (props) => {
     const psychologues = PsychologistData.psychologues
 
 
-    const filteredPsy= psychologues.filter(psychologue => psychologue.nom.toLowerCase().includes(Query.toLowerCase()))
+    const filteredPsy= psychologues.filter(psychologue => psychologue.nom.toLowerCase().includes(Query.toLowerCase()) )
     
     
 

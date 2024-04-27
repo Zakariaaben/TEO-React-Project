@@ -6,10 +6,11 @@ import Quizz from './Pages/Quizz';
 import Rendezvous from './Pages/Rendezvous';
 import Navbar from './Components/Navbar/Navbar';
 
-function App() {
 
+function App() {
   return (
     <>
+    
       <Router>
       <Navbar/>
         <Routes>  

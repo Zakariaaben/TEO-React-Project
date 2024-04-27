@@ -11,8 +11,7 @@ const Rendezvous = () => {
 
   return (
     <div className="Page">
-      <SearchBar changeQuery={Query=> {SetQuery(Query)
-      console.log(Query)}}/>
+      <SearchBar changeQuery={Query=> {SetQuery(Query)}}/>
       <PsyCards Query={Query}/>
     </div>
   )

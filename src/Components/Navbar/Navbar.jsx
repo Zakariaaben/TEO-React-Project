@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="Logo">
-        <FaUserDoctor/>
+        <img src="/public/Images/couteau.svg" alt=""  style={{height:"30px"}}/>
         <p>MyName</p>
       </div>
       <div className="navbar-links">

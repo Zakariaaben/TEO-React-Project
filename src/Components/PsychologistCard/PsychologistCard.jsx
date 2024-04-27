@@ -61,9 +61,9 @@ const PsychologistCard = ({psychologist}) => {
             <p><BiPhoneCall className='icon'/>{psychologist.telephone}</p>
             
           </div>
-          <Button  className="buttonRDV" variant="contained" onClick={()=>HandleRDV()} >
+          <button  className="buttonRDV"  onClick={()=>HandleRDV()} >
         Prendre Rendez-Vous
-      </Button>
+      </button>
 
         </div>
     {

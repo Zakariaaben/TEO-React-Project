@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.questioncontainer{
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.Question{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 70px;
+    width: 100%;
+    position: absolute;
+    opacity: 1;   
+}
+.animatecurrent{
+    animation: inquestion 800ms ;
+}
+@keyframes inquestion{
+    from {  
+        right: -400px;
+        opacity: 0;
+    }to {
+        opacity: 1;
+        right: 0;
+        
+    }
+}
+.animateprevious{
+    animation:  outquestion 700ms ease-out;
+}
+@keyframes outquestion{
+    from {  
+        left:0px;
+        opacity: 1;
+    }to {
+        opacity: 0;
+        left:-400px;
+    }
+}
+
+
+.animatepreviousback{
+    animation: previous 700ms ease-out;
+}
+@keyframes previous{
+    from{
+        right: 0;
+        opacity: 1;
+    }to{
+        right:-400px;
+        opacity: 0;
+    }
+}
+
+.animatecurrentback{
+   animation: current 800ms;
+   opacity: 1;
+}
+@keyframes current{
+    from{
+        left: -400px;
+        opacity: 0;
+    }to{
+        left:0;
+        opacity: 1;
+    }
+}
+
+
+.reponses{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Question h1{
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 5px;
+    width: 70%;
+    text-align:center;
+    text-justify: inter-word;
+}
+
+
+
+
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 2px 3px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 300ms;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
+.back{
+    position: absolute;
+    top: 40px;
+    left:40px;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    transition:300ms;
+    cursor:pointer;
+    
+}
+.iconback{
+    font-size: 23px;
+    transition:300ms;
+    cursor: pointer;
+}
+
+.back:hover *{
+    font-size: 23px;
+    margin-right: 5px;
+}
