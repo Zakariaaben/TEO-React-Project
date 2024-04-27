@@ -27,6 +27,7 @@ const PsychologistCard = ({psychologist}) => {
     }
 
   }
+  
   Rdv? document.body.style.overflowY = "hidden":document.body.style.overflowY = "scroll"
 
   return (
