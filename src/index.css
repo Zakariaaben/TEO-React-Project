@@ -6,10 +6,12 @@
   --secondary: #dedcff;
   --accent: #d8c46a;
   --button: #1538d3;
-
+  
 }
+
 body::-webkit-scrollbar {
   display: none;
+
 }
 *{
   margin: 0;

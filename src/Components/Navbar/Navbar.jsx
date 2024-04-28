@@ -24,7 +24,7 @@ const Navbar = () => {
 };
    
   const ToggleMenu= ()=>{
-    isOpenmenu(!openMenu);
+    isOpenmenu(!openMenu)
   }
 
   useEffect(() => {
@@ -49,10 +49,10 @@ const Navbar = () => {
         <p>MyName</p>
       </div>
       <div className={`navbar-links ${openMenu ? "active" : ""} `} ref={menuref}>
-        <Link to="/Accueil" onClick={()=>ToggleMenu()}>Accueil</Link>
-        <Link to="/Rendez-vous"  onClick={()=>ToggleMenu()}>Prendre Rendez-vous</Link>
-        <Link to="/Quizz"  onClick={()=>ToggleMenu()}>Se diriger</Link>
-        <BiX className='closemenu'  onClick={()=>ToggleMenu()} />
+        <Link to="/Accueil" onClick={()=>isOpenmenu(false)}>Accueil</Link>
+        <Link to="/Rendez-vous"  onClick={()=>isOpenmenu(false)}>Prendre Rendez-vous</Link>
+        <Link to="/Quizz"  onClick={()=>isOpenmenu(false)}>Se diriger</Link>
+        <BiX className='closemenu'  onClick={()=>isOpenmenu(false)} />
       </div>
       <BiMenu className="iconMenu" onClick={()=>ToggleMenu()} />
         

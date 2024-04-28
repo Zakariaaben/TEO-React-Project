@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./PsychologistCard.css"
 import { MdEmail } from 'react-icons/md'
 import { Button } from '@mui/material'
@@ -15,7 +15,6 @@ const PsychologistCard = ({psychologist}) => {
     
     if (!Rdv){
       SetRdv(true)
-      
     }
     else
       {
@@ -25,10 +24,13 @@ const PsychologistCard = ({psychologist}) => {
           SetRdv(false)
         }, 400);
     }
-
   }
+
   
-  Rdv? document.body.style.overflowY = "hidden":document.body.style.overflowY = "scroll"
+  
+
+  
+  Rdv ? document.body.style.overflowY = "hidden" : document.body.style.overflowY = "scroll"
 
   return (
     <div className='Card'>
@@ -56,7 +58,7 @@ const PsychologistCard = ({psychologist}) => {
             </p>
         </div>
         </div>
-        <div className='Right-container-card'>
+        <div className='Right-container-card' >
           <div className="num-mail">
             <p><MdEmail className='icon'/>{psychologist.email}</p>
             <p><BiPhoneCall className='icon'/>{psychologist.telephone}</p>
