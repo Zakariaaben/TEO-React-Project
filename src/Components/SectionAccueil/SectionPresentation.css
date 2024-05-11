@@ -1,14 +1,14 @@
 .SectionPresentation{
     
     position: relative;
-    width: 100%;
+    width: 100vw;
     height: 600px;
     display: flex;
     padding: 100px;
     gap: 20px   ;
     align-items: center;
     overflow: hidden;
-   
+   margin-top:50px;
     
 }   
 
@@ -16,7 +16,7 @@
     height: 800px;
     right: -80px;
    top: -100px;
-    position: absolute;
+   position: absolute;
     z-index: -1;
 }
 .SectionPresentation h1, .SectionPresentation span{
@@ -37,4 +37,66 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 40px;
+    
+}
+
+@media (max-width:1200px) {
+    .SectionPresentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: visible;
+        gap: 0;
+        height: 100%;
+        padding: 0;
+    }
+    .SectionPresentation img{
+        position: static;
+        height: 100%;
+        z-index: 1;
+    }
+    .text-content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+       width: fit-content;
+       
+
+    }
+    .text-content :nth-child(1)>*{
+        width: fit-content;
+    }
+    
+}
+
+
+
+@media (max-width: 615px) {
+    
+    .text-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+       width: fit-content;
+       padding: 0 30px
+
+    }
+    .text-content :nth-child(1)>*{
+        width: fit-content;
+    }
+    .text-content >*{
+        width: fit-content;
+    }
+    .text-content h1,.text-content span{
+        font-size: 50px;
+    }
+    .text-content h2{
+        text-align: justify;
+    }
+}
+
+@media (max-width:500px) {
+    .text-content h1,.text-content span{
+        font-size: 35px;
+    }
 }

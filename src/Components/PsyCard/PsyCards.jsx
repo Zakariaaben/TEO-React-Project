@@ -11,11 +11,11 @@ const PsyCards = (props) => {
     
     
 
-
+  
   return (
-    <div className='PsyCards'>
+    <div className='PsyCards' >
         {filteredPsy.map((psychologue,index ) =>
-        <PsychologistCard key={index} psychologist={psychologue} />
+        <PsychologistCard key={index} showNotif={props.showNotif} psychologist={psychologue} />
         )
       }
       </div>

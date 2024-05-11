@@ -7,7 +7,7 @@ import Flag from 'react-world-flags'
 import RDV from '../RDV/RDV.jsx'
 
 
-const PsychologistCard = ({psychologist}) => {
+const PsychologistCard = ({psychologist,showNotif}) => {
 
   const [Rdv,SetRdv] = useState(false)
   
@@ -33,7 +33,7 @@ const PsychologistCard = ({psychologist}) => {
   Rdv ? document.body.style.overflowY = "hidden" : document.body.style.overflowY = "scroll"
 
   return (
-    <div className='Card'>
+    <div className='Card' >
         <div className='Left-container-card'>
         <img src={psychologist.img} className='Faceicon' alt="" />
         <div className='informationpsy'>
@@ -70,7 +70,7 @@ const PsychologistCard = ({psychologist}) => {
 
         </div>
     {
-      Rdv ? <RDV closeRDV={()=>HandleRDV()} psy={psychologist} /> : null
+      Rdv ? <RDV closeRDV={()=>HandleRDV()} psy={psychologist} showNotif={showNotif} /> : null
     }
       
     </div>

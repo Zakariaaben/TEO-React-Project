@@ -10,7 +10,6 @@ const SectionPresentation = () => {
             </div>
             
             <img src="/Images/illustrationDoctors.svg" alt="" />
-            <img src="/assets/illustrationDoctors.svg" alt="" />
 
     </div>
   )

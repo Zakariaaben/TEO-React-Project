@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Pages.css";
-import data from "/public/Questions.json";
+import data from "/src/Questions.json";
 import Question from "../Components/Question/Question";
 
 const Quizz = () => {
