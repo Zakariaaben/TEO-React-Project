@@ -46,12 +46,12 @@ const Navbar = () => {
       
       <div className="Logo">
         <img src="/Images/couteau.svg" alt=""  style={{height:"30px"}}/>
-        <p>MyName</p>
+        <p>MyAidologue</p>
       </div>
       <div className={`navbar-links ${openMenu ? "active" : ""} `} ref={menuref}>
-        <Link to="/Accueil" onClick={()=>isOpenmenu(false)}>Accueil</Link>
-        <Link to="/Rendez-vous"  onClick={()=>isOpenmenu(false)}>Prendre Rendez-vous</Link>
-        <Link to="/Quizz"  onClick={()=>isOpenmenu(false)}>Se diriger</Link>
+        <Link className="links"to="/Accueil" onClick={()=>isOpenmenu(false)}>Accueil</Link>
+        <Link className="links"to="/Rendez-vous"  onClick={()=>isOpenmenu(false)}>Prendre Rendez-vous</Link>
+        <Link className="links"to="/Quizz"  onClick={()=>isOpenmenu(false)}>Se diriger</Link>
         <BiX className='closemenu'  onClick={()=>isOpenmenu(false)} />
       </div>
       <BiMenu className="iconMenu" onClick={()=>ToggleMenu()} />

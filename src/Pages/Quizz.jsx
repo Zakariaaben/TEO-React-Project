@@ -5,7 +5,7 @@ import Question from "../Components/Question/Question";
 import Resultat from "../Components/Resultat/Resultat";
 
 const Quizz = () => {
-  const [questionNumber, SetQuestionNumber] = useState(25);
+  const [questionNumber, SetQuestionNumber] = useState(0);
   const [psy,setPsy] = useState(0);
   const [couple,setCouple] = useState(0);
   const [phobie,setPhobie] = useState(0);
