@@ -1,48 +1,332 @@
 [
-        {
-            "Question":"This is an example of a question. Waiting for the real one...",
-            "Reponses":[ 
-                "This is the first one",
-                "That's the second",
-                "i dont know atp",
-                "I need help wanna kms"
-            ]
-        },
-        {
-            "Question":"I will only need to change this file",
-            "Reponses":[ 
-                "This is the first one",
-                "That's the second",
-                "i dont know atp",
-                "I need help wanna kms"
-            ]
-        },
-        {
-            "Question":"This is a second example of a question. Waiting for the real one...",
-            "Reponses":[ 
-                "This is the first one",
-                "That's the second",
-                "i dont know atp",
-                "I need help wanna kms"
-            ]
-        },
-        {
-            "Question":"This is a second example of a question. Waiting for the real one...",
-            "Reponses":[ 
-                "This is the first one",
-                "That's the second",
-                "i dont know atp",
-                "I need help wanna kms"
-            ]
-        },
-        {
-            "Question":"This is a second example of a question. Waiting for the real one...",
-            "Reponses":[ 
-                "This is the first one",
-                "That's the second",
-                "i dont know atp",
-                "I need help wanna kms"
-            ]
-        }
-]
+    
+    {
+        "question":"1. À quelle fréquence avez-vous des pensées ou des images mentales récurrentes et persistantes qui causent de l'anxiété ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence essayez-vous de stopper ces pensées ou images ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence reconnaissez-vous que ces pensées ou images proviennent de votre propre esprit et ne sont pas externes ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"Ces obsessions entravent-elles votre vie quotidienne ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence ressentez-vous une inquiétude excessive ou incontrôlable ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous des symptômes physiques tels que des palpitations ou des tremblements en raison de l'anxiété ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous des difficultés à vous détendre ou à vous calmer ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous des pensées anxieuses qui interfèrent avec votre capacité à fonctionner ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence vous sentez-vous triste ou désespéré ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous perdu de l'intérêt pour des activités que vous aimiez auparavant ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
 
+     {
+        "question":"À quelle fréquence ressentez-vous une fatigue ou une perte d'énergie persistante ? ",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },     
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    {
+        "question":"À quelle fréquence ressentez-vous des tensions ou des conflits dans votre mariage ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous des difficultés à communiquer avec votre partenaire ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence vous sentez-vous distant ou émotionnellement déconnecté de votre partenaire ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    } ,      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+{
+"question":"À quelle fréquence ressentez-vous une peur intense envers quelque chose qui n'est pas effrayant en réalité ?",
+"reponses":[
+"Jamais",
+"Rarement ",
+"Parfois",
+"Souvent"
+]
+} ,   
+{
+"question":"Votre peur disparaît-elle dès que l'objet de votre peur est absent ?",
+"reponses":[
+"Jamais",
+"Rarement ",
+"Parfois",
+"Souvent"
+]
+} ,  
+{
+"question":"À quelle fréquence avez-vous des comportements phobiques tels que l'évitement ou la recherche de sécurité ?",
+"reponses":[
+"Jamais",
+"Rarement ",
+"Parfois",
+"Souvent"
+]
+} ,    
+
+{
+"question":"Cette peur dure-t-elle depuis au moins six mois ? ",
+"reponses":[
+"Jamais",
+"Rarement ",
+"Parfois",
+"Souvent"
+]
+} ,     
+
+
+    {
+        "question":" À quelle fréquence avez-vous des flashbacks ou des souvenirs répétitifs de l'événement ? ",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },    
+     {
+        "question":"Après un événement traumatisant, avez-vous une phase de latence où vous ne montrez aucune réaction apparente (comme être en état de choc) ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },     {
+        "question":"À quelle fréquence évitez-vous des situations ou des endroits qui vous rappellent l'événement ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },     {
+        "question":"À quelle fréquence essayez-vous de reconstruire votre vie ou votre personnalité après l'événement ? ",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },     
+
+
+
+
+
+
+
+
+
+
+    {
+        "question":"À quelle fréquence vous souvenez-vous d'expériences négatives ou traumatisantes de votre enfance ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+        
+    },
+    {
+        "question":"À quelle fréquence avez-vous des cauchemars ou des rêves liés à votre enfance ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+        
+    },
+    {
+        "question":"À quelle fréquence ces souvenirs affectent-ils votre vie actuelle ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+        
+    },
+    {
+        "question":"À quelle fréquence ressentez-vous de la détresse émotionnelle lorsque vous pensez à votre enfance ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+        
+    },
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "question":"À quelle fréquence êtes-vous préoccupé par votre poids ou votre apparence ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence avez-vous des comportements alimentaires inhabituels, comme des périodes de restriction sévère ou des épisodes de suralimentation ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    },
+    {
+        "question":"À quelle fréquence ressentez-vous une culpabilité ou une honte après avoir mangé ?",
+        "reponses":[
+            "Jamais",
+            "Rarement ",
+            "Parfois",
+            "Souvent"
+        ]
+    }  
+           
+
+
+
+
+]

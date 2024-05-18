@@ -19,7 +19,7 @@ const Question = (props) => {
             <IoIosArrowBack className="iconback" />
           </div>
         )}
-        <h1>{props.data.Question}</h1>
+        <h1>{props.data.question}</h1>
         <div className="reponses">
           <div>
             <button
@@ -29,10 +29,13 @@ const Question = (props) => {
                 document.getElementById("outquestion").className =
                   "animateprevious Question";
                 props.nextQuestion(next);
+                props.logic(props.number, 0);
               }}
             >
-              {props.data.Reponses[0]}
+              {props.data.reponses[0]}
             </button>
+
+
             <button
               className="button-74"
               onClick={() => {
@@ -40,10 +43,12 @@ const Question = (props) => {
                 document.getElementById("outquestion").className =
                   "animateprevious Question";
                 props.nextQuestion(next);
+                props.logic(props.number, 1);
               }}
             >
-              {props.data.Reponses[1]}
+              {props.data.reponses[1]}
             </button>
+
           </div>
           <div>
             <button
@@ -53,9 +58,10 @@ const Question = (props) => {
                 document.getElementById("outquestion").className =
                   "animateprevious Question";
                 props.nextQuestion(next);
+                props.logic(props.number, 2);
               }}
             >
-              {props.data.Reponses[2]}
+              {props.data.reponses[2]}
             </button>
             <button
               className="button-74"
@@ -64,9 +70,11 @@ const Question = (props) => {
                 document.getElementById("outquestion").className =
                   "animateprevious Question";
                 props.nextQuestion(next);
+                props.logic(props.number, 3);
+
               }}
             >
-              {props.data.Reponses[3]}
+              {props.data.reponses[3]}
             </button>
           </div>
         </div>

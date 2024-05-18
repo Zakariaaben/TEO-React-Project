@@ -1,0 +1,42 @@
+.Resultat{
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  *{
+    
+    font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+  };
+  animation: show 2000ms;
+}
+
+
+
+@keyframes show {
+    from{
+        opacity: 0;
+    } to{
+        opacity: 1;
+    }
+}
+.Resultat > h1{
+    font-size: 60px;
+    text-decoration: underline  ;
+    
+}
+.Resultat > p{
+    font-size: 40px;
+    line-height: 60px;
+    background-color: #f4f4f4;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
