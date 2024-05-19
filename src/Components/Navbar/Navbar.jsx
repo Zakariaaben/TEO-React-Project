@@ -45,7 +45,7 @@ const Navbar = () => {
     <div className="Navbar">
       
       <div className="Logo">
-        <img src="/Images/couteau.svg" alt=""  style={{height:"30px"}}/>
+        <img src="/Images/fav.png" alt=""  style={{height:"50px"}}/>
         <p>MyAidologue</p>
       </div>
       <div className={`navbar-links ${openMenu ? "active" : ""} `} ref={menuref}>
