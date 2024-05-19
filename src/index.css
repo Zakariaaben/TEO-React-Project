@@ -27,7 +27,7 @@ body::-webkit-scrollbar {
 }
 body{
   background-color: var(--background);
-  height: 100%!important;
+  height: 100vh!important;
 
 
 }
